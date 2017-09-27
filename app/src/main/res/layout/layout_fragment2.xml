@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginRight="50dp"
+        android:id="@+id/sao"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/a2"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Release date:"
+        android:id="@+id/tv1"
+        android:layout_toRightOf="@+id/sao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="2015-06-07"
+        android:id="@+id/date"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/a3"
+        android:layout_alignParentRight="true"
+        android:layout_width="70dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/raiting"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv1"
+        android:text="Rating:"
+        android:layout_toRightOf="@+id/sao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="6.4/10.0"
+        android:id="@+id/chiso"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/date"
+        android:layout_toRightOf="@+id/raiting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/sad"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sao"
+        android:background="@drawable/a4"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:id="@+id/overview"
+        android:text="Overview"
+        android:textColor="#f52929"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/chiso"
+        android:layout_toRightOf="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="10dp"
+        android:text="Cuộc sống có lúc vui lúc buồn và những nốt trầm sẽ giúp ta nhìn lại để điều chỉnh mọi thứ sao cho phù hợp. Thay đổi thế giới là điều thật khó nhưng thay đổi bản thân từ cách nhìn..."
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/overview"
+        android:layout_toRightOf="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/remider"
+        android:textColor="#ffffff"
+        android:background="#3a7ced"
+        android:text="Remider"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="34dp"
+        android:layout_below="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cc"
+        android:layout_marginLeft="20dp"
+        android:text="Case and crew"
+        android:textStyle="bold"
+        android:layout_below="@+id/remider"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/cc"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="150dp" />
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="150dp" />
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="150dp" />
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="150dp" />
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
