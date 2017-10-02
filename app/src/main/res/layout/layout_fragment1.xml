@@ -3,9 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ImageView
+        android:background="@drawable/google"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
     <ListView
-        android:id="@+id/lv1"
+        android:background="#c3fcf5"
+        android:id="@+id/lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></ListView>
+    <FrameLayout
+        android:id="@+id/fr1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
 
 </LinearLayout>

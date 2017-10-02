@@ -27,8 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <ImageView
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="@drawable/a3"
+        android:background="@drawable/youtube"
         android:layout_alignParentRight="true"
         android:layout_width="70dp"
         android:layout_height="40dp" />
@@ -54,7 +55,7 @@
         android:id="@+id/sad"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/sao"
-        android:background="@drawable/a4"
+        android:background="@drawable/moon5"
         android:layout_width="120dp"
         android:layout_height="120dp" />
     <TextView
@@ -69,7 +70,11 @@
         android:layout_height="wrap_content" />
     <TextView
         android:layout_marginRight="10dp"
-        android:text="Cuộc sống có lúc vui lúc buồn và những nốt trầm sẽ giúp ta nhìn lại để điều chỉnh mọi thứ sao cho phù hợp. Thay đổi thế giới là điều thật khó nhưng thay đổi bản thân từ cách nhìn..."
+        android:text="Sugar,
+Yes please
+Won't you come and put it on on me
+Oh right here, cause I need
+Little love and little sympathy..."
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_below="@+id/overview"
@@ -80,9 +85,9 @@
         android:id="@+id/remider"
         android:textColor="#ffffff"
         android:background="#3a7ced"
-        android:text="Remider"
+        android:text="Sugar"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="34dp"
+        android:layout_marginLeft="35dp"
         android:layout_below="@+id/sad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

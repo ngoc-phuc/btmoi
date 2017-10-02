@@ -10,11 +10,11 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-interface Click{
+/*interface Click{
         public void back();
-        }
+        }*/
 
-public class MainActivity extends AppCompatActivity implements Click{
+public class MainActivity extends AppCompatActivity /*implements Click*/{
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private Fragment fragment;
@@ -31,15 +31,15 @@ public class MainActivity extends AppCompatActivity implements Click{
         tabLayout = (TabLayout) findViewById(R.id.tl1);
         FragmentManager fragmentManager=getSupportFragmentManager();
         FragmentAdapter fragmentAdapter= new FragmentAdapter(fragmentManager);
-        fragmentAdapter.insertFragment(new Fragment1());
+        fragmentAdapter.insertFragment(new FragmentRoot());
         fragmentAdapter.insertFragment(new Fragment2());
         fragmentAdapter.insertFragment(new Fragment3());
         viewPager.setAdapter(fragmentAdapter);
         tabLayout.setupWithViewPager(viewPager);
     }
 
-    @Override
+    /*@Override
     public void back() {
         finish();
-    }
+    }*/
 }
